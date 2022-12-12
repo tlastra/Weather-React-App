@@ -6,10 +6,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h1>Search your City's Weather 🌤</h1>
-          <Weather />
-        </header>
+        <h1>Search your City's Weather 🌤</h1>
+        <Weather />
+        <footer>
+          This is my
+          <a href="https://github.com/tlastra/Weather-React-App">GitHub</a>site
+        </footer>
       </div>
     </div>
   );

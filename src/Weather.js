@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 import axios from "axios";
 
 export default function Weather() {
@@ -39,7 +40,7 @@ export default function Weather() {
   );
   if (preview) {
     return (
-      <div>
+      <div className="Current">
         {form}
         <ul>
           <li>Temperature: {Math.round(temperature.temperature)}°C</li>
