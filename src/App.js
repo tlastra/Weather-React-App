@@ -9,8 +9,11 @@ function App() {
         <h1>Search your City's Weather 🌤</h1>
         <Weather />
         <footer>
-          This is my
-          <a href="https://github.com/tlastra/Weather-React-App">GitHub</a>site
+          This is my {""}
+          <a href="https://github.com/tlastra/Weather-React-App" rel="noopener">
+            GitHub
+          </a>
+          {""} site
         </footer>
       </div>
     </div>
