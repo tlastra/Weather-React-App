@@ -1,8 +1,6 @@
 .App {
-  background-color: rgb(143, 184, 142);
-  text-align: center;
-}
-.Current {
+  max-width: 600px;
+  margin: 0 auto;
   text-align: center;
 }
 h1 {
@@ -10,6 +8,8 @@ h1 {
   padding: 5px;
 }
 footer {
-  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 10px 0;
   padding: 5px;
 }
+

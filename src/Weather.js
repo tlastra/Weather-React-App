@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./Weather.css";
 import axios from "axios";
 
 export default function Weather() {
@@ -30,27 +30,47 @@ export default function Weather() {
   }
   let form = (
     <form onSubmit={handleSubmit}>
+      <div className="row">
+        <div className="col-9">
       <input
         type="search"
         onChange={updateCity}
         placeholder="Enter your City"
-      />
-      <input type="submit" value="Search" />
+        className="form-control"
+        autoFocus="on"
+      /></div>
+      <div className="col-3">
+      <input type="submit" value="Search" className="btn btn-primary w-100"/>
+      </div>
+      </div>
     </form>
   );
   if (preview) {
     return (
-      <div className="Current">
+      <div className="current">
         {form}
+        <h1>San Jose</h1>
         <ul>
-          <li>Temperature: {Math.round(temperature.temperature)}°C</li>
+          <li>Date: Today!</li>
           <li>Description: {temperature.description}</li>
+        </ul>
+        <div className="row">
+          <div className="col-6">
+            <div className="clearfix">
+             <img src={temperature.icon} alt={temperature.description} className="float-left" />
+            <div className="float-left">
+             <span className="degrees">{Math.round(temperature.temperature)}</span>
+             <span className="unit">°C</span>
+            </div>
+           </div>
+          </div>
+         <div className="col-6">
+           <ul> 
           <li>Humidity: {temperature.humidity}%</li>
           <li>Wind: {Math.round(temperature.wind)} km/h</li>
-          <li>
-            <img src={temperature.icon} alt={temperature.description} />
-          </li>
-        </ul>
+           </ul>
+          </div> 
+        </div>
       </div>
     );
   } else {
