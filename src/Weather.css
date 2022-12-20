@@ -1,51 +1,53 @@
 .current {
-background-color: rgb(143, 184, 142);
-border: 1px solid black;
-border-radius: 4px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding: 15px;
-margin: 30px;
+  background-color: rgb(143, 184, 142);
+  border: 1px solid black;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  margin: 30px;
 }
 .current form {
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 .current h1 {
-    color: black;
-    display: block;
-    font-size: 24px;
-    font-weight: 300;
-    margin:0 0 10px;
-    line-height: 29px;
+  color: black;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 0 10px;
+  line-height: 29px;
 }
 .current ul {
-    margin: 0;
-    padding: 0
+  margin: 0;
+  padding: 0;
 }
 .current li {
-    color: black;
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 19px;
-    list-style: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
 }
-.current h1, ul, form {
-    text-align: left;
+.current h1,
+ul,
+form {
+  text-align: left;
 }
-.current img {
-    height: 60px;
-    margin-right: 10px;
-    display: inline-block;
+.current canvas {
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
 }
 .current .degrees {
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 40px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 40px;
 }
 .current .unit {
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-    line-height: 1;
-    top: -35px;
-    margin-left: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -35px;
+  margin-left: 5px;
 }
