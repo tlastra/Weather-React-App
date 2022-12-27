@@ -3,6 +3,9 @@
 }
 
 .Forecast-temps-min {
-  opacity: 0.6;
+  color: #fcfcfc;
   margin-left: 5px;
+}
+.Forecast-temps-max {
+  color: #8f8787;
 }
