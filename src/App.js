@@ -9,11 +9,17 @@ function App() {
         <h1>Search your City's Weather 🌤</h1>
         <Weather defaultCity="Paris" />
         <footer>
-          This is my {""}
+          This project was coded by Tiana Lastra and is {""}
           <a href="https://github.com/tlastra/Weather-React-App" rel="noopener">
-            GitHub
+            open-sourced on GitHub
           </a>
-          {""} site
+          {""} and {""}
+          <a
+            href="https://glistening-brigadeiros-c2b5d1.netlify.app/"
+            rel="noopener"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
